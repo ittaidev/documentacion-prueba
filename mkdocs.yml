@@ -61,6 +61,10 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@tu_canal
       name: YouTube
+      
+plugins:
+  - search
+  - macros
 
 
 
