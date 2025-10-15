@@ -1,4 +1,4 @@
-![Texto alternativo](assets/img/general/logonobg.png {: width="420" } "Título alternativo")
+![Texto alternativo](assets/img/general/logonobg.png  "Título alternativo") {: width="420" }
 
 # Plataforma Autogestionada de Servicios en la Nube
 ## Descripción General
@@ -33,6 +33,7 @@ en la ciberseguridad y eficiencia operativa.
 </p>
 
 <p align="center"><em>Diagrama de bitCLD</em></p>
+
 
 
 
