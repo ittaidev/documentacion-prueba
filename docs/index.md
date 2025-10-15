@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="{{ 'docs/assets/img/general/logonobg.png' | relative_url }}" alt="Logo bitCLD" width="400">
-</p>
+![Texto alternativo](assets/img/general/logonobg.png "Título alternativo")
 
 # Plataforma Autogestionada de Servicios en la Nube
 ## Descripción General
@@ -35,6 +33,7 @@ en la ciberseguridad y eficiencia operativa.
 </p>
 
 <p align="center"><em>Diagrama de bitCLD</em></p>
+
 
 
 
