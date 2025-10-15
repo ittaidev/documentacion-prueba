@@ -80,7 +80,7 @@ Zoho genera un registro tipo TXT con nombre `zoho._domainkey` y un valor único,
 Una vez hayamos finalizado, los registros deben aparecer así:
 
 <p align="center">
-  <img src="../../assets/img/zoho/registros-dns.png" alt="Registros DNS completos" width="900">
+  <img src="../assets/img/zoho/registros-dns.png" alt="Registros DNS completos" width="900">
 </p>
 
 <p align="center"><em>Registros DNS completos</em></p>
@@ -91,7 +91,7 @@ Una vez hayamos finalizado, los registros deben aparecer así:
 Los servicios de correo requieren resolución directa hacia los servidores de Zoho.
 
 <p align="center">
-  <img src="./assets/img/zoho/nube-proxy.png" alt="No usar cloudflare como proxy" width="300">
+  <img src="../assets/img/zoho/nube-proxy.png" alt="No usar cloudflare como proxy" width="300">
 </p>
 
 ## Prueba de funcionamiento  
@@ -99,7 +99,7 @@ Los servicios de correo requieren resolución directa hacia los servidores de Zo
 Una vez completada la configuración de los registros DNS y la verificación del dominio, tendremos una cuenta de correo funcional.
 
 <p align="center">
-  <img src="./assets/img/zoho/cuenta-zoho.png" alt="Cuenta Zoho" width="400">
+  <img src="../assets/img/zoho/cuenta-zoho.png" alt="Cuenta Zoho" width="400">
 </p>
 
 Ahora vamos a realizar pruebas básicas de funcionamiento para comprobar la correcta entrega y recepción de correos bajo el dominio `@bitcld.com`.
@@ -108,11 +108,11 @@ Ahora vamos a realizar pruebas básicas de funcionamiento para comprobar la corr
 Se envió un mensaje desde una de las cuentas configuradas (`contacto@bitcld.com`) hacia una cuenta externa, en mi caso `proton mail` pero podría ser cualquier otro (Gmail, Outlook...).
 
 <p align="center">
-  <img src="./assets/img/zoho/prueba-envio1.png" alt="Cuenta Zoho" width="700">
+  <img src="../assets/img/zoho/prueba-envio1.png" alt="Cuenta Zoho" width="700">
 </p>
 
 <p align="center">
-  <img src="./assets/img/zoho/prueba-envio2.png" alt="Cuenta Zoho" width="700">
+  <img src="../assets/img/zoho/prueba-envio2.png" alt="Cuenta Zoho" width="700">
 </p>
 
 ### 2. Recepción de correo  
@@ -122,11 +122,11 @@ Realizamos una prueba inversa, enviando un correo desde `bitcld@proton.me` hacia
 - La interfaz web de Zoho muestra correctamente los mensajes y notificaciones.  
 
 <p align="center">
-  <img src="./assets/img/zoho/prueba-recepcion1.png" alt="Cuenta Zoho" width="700">
+  <img src="../assets/img/zoho/prueba-recepcion1.png" alt="Cuenta Zoho" width="700">
 </p>
 
 <p align="center">
-  <img src="./assets/img/zoho/prueba-recepcion2.png" alt="Cuenta Zoho" width="700">
+  <img src="../assets/img/zoho/prueba-recepcion2.png" alt="Cuenta Zoho" width="700">
 </p>
 
 ### Acceso vía aplicación móvil  
@@ -135,10 +135,10 @@ Verificamos la sincronización en tiempo real desde la aplicación.
 
 <p align="center">
   <span>
-    <img src="./assets/img/zoho/movil1.jpg" alt="Cuenta Zoho móvil" width="300" style="margin-right: 10px;">
+    <img src="../assets/img/zoho/movil1.jpg" alt="Cuenta Zoho móvil" width="300" style="margin-right: 10px;">
   </span>
   <span>
-    <img src="./assets/img/zoho/movil2.jpg" alt="Bandeja de entrada móvil" width="300">
+    <img src="../assets/img/zoho/movil2.jpg" alt="Bandeja de entrada móvil" width="300">
   </span>
 </p>
 
@@ -159,3 +159,4 @@ En resumen, Zoho Mail se integra en bitCLD como un servicio externo confiable, q
 
 
 ---
+
