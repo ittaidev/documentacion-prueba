@@ -2,7 +2,7 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # o la rama que uses
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -30,24 +30,26 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install mkdocs mkdocs-material
-          # pip install mkdocs-mermaid2-plugin pymdown-extensions  # si los usas
+          # pip install mkdocs-macros-plugin mkdocs-mermaid2-plugin pymdown-extensions  # si los usas
 
       - name: Build site
         run: mkdocs build --strict
 
+      # ⬇️ ÚNICO sitio donde se sube el artefacto
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
 
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
