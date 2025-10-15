@@ -1,6 +1,8 @@
 site_name: Documentación BitCLD
 url: "https://ittaidev.github.io"
-baseurl: "/documentacion-prueba"
+markdown: kramdown
+kramdown:
+  input: GFM
 use_directory_urls: false
 theme:
   name: material
@@ -63,6 +65,7 @@ extra:
       link: https://www.youtube.com/@tu_canal
       name: YouTube
       
+
 
 
 
