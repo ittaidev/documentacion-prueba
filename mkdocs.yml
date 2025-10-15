@@ -1,5 +1,6 @@
 site_name: Documentación BitCLD
-site_url: https://tu-usuario.github.io/documentacion-prueba/
+url: "https://ittaidev.github.io"
+baseurl: "/documentacion-prueba"
 use_directory_urls: false
 theme:
   name: material
@@ -62,9 +63,7 @@ extra:
       link: https://www.youtube.com/@tu_canal
       name: YouTube
       
-plugins:
-  - search
-  - macros
+
 
 
 
