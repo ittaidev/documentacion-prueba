@@ -1,5 +1,6 @@
 site_name: Documentación BitCLD
-site_url: https://ittaidev.github.io/documentacion-prueba
+site_url: https://tu-usuario.github.io/documentacion-prueba/
+use_directory_urls: false
 theme:
   name: material
   icon:
@@ -60,6 +61,7 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@tu_canal
       name: YouTube
+
 
 
 
