@@ -42,10 +42,6 @@ nav:
     - Uptime Kuma: servicios/uptime-kuma.md
     - Netdata: servicios/netdata.md
     - Passwarden: servicios/passwarden.md
-  - Guías:
-    - Mantenimiento: guias/mantenimiento.md
-    - Backup: guias/backup.md
-    - Troubleshooting: guias/troubleshooting.md
 
 extra:
   social:
@@ -66,3 +62,4 @@ extra:
       name: YouTube
 
         
+
