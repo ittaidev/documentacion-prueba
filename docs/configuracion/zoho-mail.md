@@ -91,7 +91,7 @@ Una vez hayamos finalizado, los registros deben aparecer así:
 Los servicios de correo requieren resolución directa hacia los servidores de Zoho.
 
 <p align="center">
-  <img src="../assets/img/zoho/nube-proxy.png" alt="No usar cloudflare como proxy" width="300">
+  <img src="../assets/img/zoho/nube-proxy.png" alt="No usar cloudflare como proxy" width="900">
 </p>
 
 ## Prueba de funcionamiento  
@@ -159,4 +159,5 @@ En resumen, Zoho Mail se integra en bitCLD como un servicio externo confiable, q
 
 
 ---
+
 
