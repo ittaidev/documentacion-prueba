@@ -1,4 +1,6 @@
-![Texto alternativo](assets/img/general/logonobg.png  "Título alternativo") {: width="420" }
+<p align="center">
+  <img src="{{/assets/img/general/logonobg.png | relative_url }}" alt="Logo bitCLD" width="400">
+</p>
 
 # Plataforma Autogestionada de Servicios en la Nube
 ## Descripción General
