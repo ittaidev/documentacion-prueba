@@ -31,10 +31,11 @@ en la ciberseguridad y eficiencia operativa.
 ## Diagrama de la infraestructura
 
 <p align="center">
-  <img src="../../assets/img/general/diagrama-completo.png" alt="Diagrama de la infraestructura bitcld" width="600">
+  <img src="assets/img/general/diagrama-completo.png" alt="Diagrama de la infraestructura bitcld" width="600">
 </p>
 
 <p align="center"><em>Diagrama de bitCLD</em></p>
+
 
 
 
