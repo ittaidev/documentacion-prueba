@@ -1,0 +1,67 @@
+site_name: Documentación BitCLD
+site_url: https://docs.bitcld.com
+theme:
+  name: material
+  icon:
+    logo: material/cloud
+  language: es
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+    - content.tabs.link
+    - navigation.indexes 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/white-balance-sunny
+        name: Cambiar a modo claro
+nav:
+  - Inicio: index.md
+  - Instalación:
+    - Servidor Ubuntu: instalacion/servidor-ubuntu.md
+    - Docker: instalacion/docker.md
+    - Servicios: instalacion/servicios.md
+  - Configuración:
+    - Tailscale: configuracion/tailscale.md
+    - Cloudflare: configuracion/cloudflare.md
+    - Caddy: configuracion/caddy.md
+    - Zoho Mail: configuracion/zoho-mail.md
+  - Servicios:
+    - Nextcloud: servicios/nextcloud.md
+    - Dockge: servicios/dockge.md
+    - AdGuard: servicios/adguard.md
+    - Uptime Kuma: servicios/uptime-kuma.md
+    - Netdata: servicios/netdata.md
+    - Passwarden: servicios/passwarden.md
+  - Guías:
+    - Mantenimiento: guias/mantenimiento.md
+    - Backup: guias/backup.md
+    - Troubleshooting: guias/troubleshooting.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://ittai.dev
+      name: Web personal
+    - icon: fontawesome/brands/github
+      link: https://github.com/ittaidev
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tu-perfil
+      name: LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/tu_usuario
+      name: Twitter / X      
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@tu_canal
+      name: YouTube
+        
