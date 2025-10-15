@@ -2,7 +2,7 @@
   <img src="./assets/img/general/logonobg.png" alt="Logo bitCLD" width="400">
 </p>
 
-# Plataforma Autogestionada de Servicios en la Nube
+# Plataforma Autogestionada de Servicios en la Nube Proque yolo
 ## Descripción General
 
 Este proyecto implementa una infraestructura completa de servicios autogestionados en un entorno cloud, 
@@ -35,6 +35,7 @@ en la ciberseguridad y eficiencia operativa.
 </p>
 
 <p align="center"><em>Diagrama de bitCLD</em></p>
+
 
 
 
