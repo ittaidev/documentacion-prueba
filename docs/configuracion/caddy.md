@@ -156,7 +156,7 @@ Para ello, se definimos **rewrites personalizados**, de forma que cuando un disp
 
 
 <p align="center">
-  <img src="../../assets/img/caddy/dns-rewrites.png" alt="DNS Rewrites de AdGuard Home" width="600">
+  <img src="../assets/img/caddy/dns-rewrites.png" alt="DNS Rewrites de AdGuard Home" width="600">
 </p>
 
 <p align="center"><em>Rewrites de Adguard Home</em></p>
@@ -279,3 +279,4 @@ Junto con [Adguard Home](../servicios/adguard.md/), ofrece una experiencia fluid
 
 
 Su combinación con [Cloudflare Tunnel](./cloudflare.md/) para el acceso remoto crea una infraestructura equilibrada y coherente, donde cada herramienta cumple una función clara dentro de los pilares del proyecto: simplicidad, seguridad y autohospedaje.
+
