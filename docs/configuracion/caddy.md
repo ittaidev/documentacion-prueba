@@ -178,7 +178,7 @@ En Windows se debe modificar el archivo hosts.
 Para ello abrimos el bloc de notas como administrador --> Abrir... --> `C:\Windows\System32\drivers\etc\hosts` y seleccionamos "Todos los archivos" para que podamos verlo.
 
 <p align="center">
-  <img src="../../assets/img/caddy/windows-hosts.png" alt="C:\Windows\System32\drivers\etc\hosts" width="600">
+  <img src="../assets/img/caddy/windows-hosts.png" alt="C:\Windows\System32\drivers\etc\hosts" width="600">
 </p>
 
 <p align="center"><em>C:\Windows\System32\drivers\etc\hosts</em></p>
@@ -276,5 +276,6 @@ Sin este paso, los navegadores marcarán los dominios .lan como “no seguros”
 
 Aunque su función es interna, Caddy es un componente esencial dentro de bitCLD.
 Junto con [Adguard Home](../servicios/adguard.md/), ofrece una experiencia fluida para los dispositivos de la red, permitiendo el acceso seguro y organizado a todos los servicios mediante dominios locales y certificados válidos.
+
 
 Su combinación con [Cloudflare Tunnel](./cloudflare.md/) para el acceso remoto crea una infraestructura equilibrada y coherente, donde cada herramienta cumple una función clara dentro de los pilares del proyecto: simplicidad, seguridad y autohospedaje.
