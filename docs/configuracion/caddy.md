@@ -156,7 +156,7 @@ Para ello, se definimos **rewrites personalizados**, de forma que cuando un disp
 
 
 <p align="center">
-  <img src="../assets/img/caddy/dns-rewrites.png" alt="DNS Rewrites de AdGuard Home" width="600">
+  <img src="../../assets/img/caddy/dns-rewrites.png" alt="DNS Rewrites de AdGuard Home" width="600">
 </p>
 
 <p align="center"><em>Rewrites de Adguard Home</em></p>
@@ -178,7 +178,7 @@ En Windows se debe modificar el archivo hosts.
 Para ello abrimos el bloc de notas como administrador --> Abrir... --> `C:\Windows\System32\drivers\etc\hosts` y seleccionamos "Todos los archivos" para que podamos verlo.
 
 <p align="center">
-  <img src="../assets/img/caddy/windows-hosts.png" alt="C:\Windows\System32\drivers\etc\hosts" width="600">
+  <img src="../../assets/img/caddy/windows-hosts.png" alt="C:\Windows\System32\drivers\etc\hosts" width="600">
 </p>
 
 <p align="center"><em>C:\Windows\System32\drivers\etc\hosts</em></p>
@@ -202,7 +202,7 @@ Después de guardar los cambios en el archivo hosts, debemos vaciar la caché de
 
 Para que los dispositivos de la red puedan acceder correctamente a los dominios locales con HTTPS, es necesario instalar el certificado raíz de Caddy en cada dispositivo que los utilice.
 <p align="center">
-  <img src="../assets/img/caddy/no-segura.png" alt="Ejemplo de no tener instalado el certificado en el dispositivo" width="600">
+  <img src="../../assets/img/caddy/no-segura.png" alt="Ejemplo de no tener instalado el certificado en el dispositivo" width="600">
 </p>
 
 <p align="center"><em>Ejemplo de no tener instalado el certificado en el dispositivo</em></p>
@@ -223,13 +223,13 @@ Para copiarlo en el host abrí una terminal y usé el comando
 Debemos ir a certmgr.msc --> Entidades de certificación raíz de confianza --> Todas las tareas --> Importar
 
 <p align="center">
-  <img src="../assets/img/caddy/w+r.png" alt="Ejecutar en Tecla Windows + R" width="400">
+  <img src="../../assets/img/caddy/w+r.png" alt="Ejecutar en Tecla Windows + R" width="400">
 </p>
 
 <p align="center"><em>Ejecutar en Tecla Windows + R</em></p>
 
 <p align="center">
-  <img src="../assets/img/caddy/importar.png" alt="Importar certificado en Windows" width="600">
+  <img src="../../assets/img/caddy/importar.png" alt="Importar certificado en Windows" width="600">
 </p>
 
 
@@ -237,7 +237,7 @@ Debemos ir a certmgr.msc --> Entidades de certificación raíz de confianza --> 
 Una vez descargado veremos que ya reconoce el certificado y que se establece una conexión segura.
 
 <p align="center">
-  <img src="../assets/img/caddy/certificado-instalado.png" alt="Importar certificado en Windows" width="600">
+  <img src="../../assets/img/caddy/certificado-instalado.png" alt="Importar certificado en Windows" width="600">
 </p>
 
 <p align="center"><em>Certificado instalado</em></p>
@@ -249,7 +249,7 @@ Una vez descargado veremos que ya reconoce el certificado y que se establece una
 En Android, a diferencia de Windows o Linux, es obligatorio usar Adguard Home como servidor por lo que primero debemos asegurarnos que está como nuestro servidor DNS.
 
 <p align="center">
-  <img src="../assets/img/caddy/android-ip.jpg" alt="Establecer Adguard Home como servidor DNS" width="300">
+  <img src="../../assets/img/caddy/android-ip.jpg" alt="Establecer Adguard Home como servidor DNS" width="300">
 </p>
 
 <p align="center"><em>Establecer Adguard Home como servidor DNS</em></p>
@@ -257,7 +257,7 @@ En Android, a diferencia de Windows o Linux, es obligatorio usar Adguard Home co
 Una vez estamos usando nuestro servidor como servidor DNS puedemos observar que tenemos acceso a dockge.lan, pero que nuestro dispositivo no reconoce el certificado de caddy y que nos muestra como conexión no segura.
 
 <p align="center">
-  <img src="../assets/img/caddy/android-conexin-nossl.jpg" alt="Ejemplo de no tener instalado el certificado en el dispositivo" width="600">
+  <img src="../../assets/img/caddy/android-conexin-nossl.jpg" alt="Ejemplo de no tener instalado el certificado en el dispositivo" width="600">
 </p>
 
 <p align="center"><em>Ejemplo de no tener instalado el certificado en el dispositivo NO TENGO LA IMAGEN</em></p>
@@ -279,5 +279,6 @@ Junto con [Adguard Home](../servicios/adguard.md/), ofrece una experiencia fluid
 
 
 Su combinación con [Cloudflare Tunnel](./cloudflare.md/) para el acceso remoto crea una infraestructura equilibrada y coherente, donde cada herramienta cumple una función clara dentro de los pilares del proyecto: simplicidad, seguridad y autohospedaje.
+
 
 
