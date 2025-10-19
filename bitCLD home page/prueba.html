@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BitCLD</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="images/icon.png" type="image/png">
+  <link rel="icon" href="images/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/icon.png">
+</head>
+<body class="bg-gray-50 text-gray-800 pt-16">
+
+  <!-- Header -->
+  <header class="bg-blue-500 shadow fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white">Proyecto Final de ASIR</h1>
+      
+      <!-- Menú de puntos estilo Google -->
+      <div class="relative">
+          <button id="menu-button" class="text-white p-2 transition">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        <!-- Menú desplegable -->
+<div id="dropdown-menu" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
+  <a href="http://cld.bitcld.com/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/nextcloud.jpg" alt="Nextcloud" class="w-5 h-5 mr-2 object-contain">
+    Nextcloud
+  </a>
+  <a href="http://dockge.bitcld.com/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/docker.png" alt="Docker" class="w-5 h-5 mr-2 object-contain">
+    Docker
+  </a>
+  <a href="http://chat.bitcld.com/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/ollama.png" alt="IA" class="w-5 h-5 mr-2 object-contain">
+    Chat
+  </a>
+  <a href="http://pass.bitcld.com/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/vaultwarden.png" alt="Vaultwarden" class="w-5 h-5 mr-2 object-contain">
+    Vaultwarden
+  </a>
+  <a href="http://monitor.bitcld.com/" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/kuma.png" alt="Uptime Kuma" class="w-5 h-5 mr-2 object-contain">
+    Uptime Kuma
+  </a>
+  <a href="" class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+    <img src="images/zoho.png" alt="Zoho Mail" class="w-5 h-5 mr-2 object-contain">
+    Zoho Mail
+  </a>
+</div>
+      </div>
+    </div>
+  </header>
+
+<!-- Hero -->
+<section class="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+  <div class="space-y-8 md:space-y-12">
+    <!-- Logo  -->
+    <div class="mb-8 md:mb-12">
+      <img src="./images/logonobg.png" 
+           class="mx-auto w-48 md:w-64 h-auto" 
+           alt="Logo del proyecto" />
+    </div>
+    
+    <!-- Título y Descripción juntos -->
+    <div class="space-y-2 md:space-y-3">
+      <h2 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+        Plataforma Autogestionada de Servicios en la Nube
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 leading-relaxed md:leading-loose max-w-4xl mx-auto">
+        Infraestructura segura y eficiente basada en contenedores, con servicios integrados de productividad, monitorización y acceso remoto. Diseñada para ofrecer privacidad, control y rendimiento sin exponer puertos a Internet.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- Pilares e historia -->
+  <section class="py-10 md:py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Pilares e historia</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-6">
+          <!-- Pilares -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-database text-indigo-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-3">Pilares del proyecto</h4>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Simplicidad</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Seguridad</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Autohospedaje</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Código abierto</span>
+                </div>
+                <p class="text-gray-600">
+                  El proyecto busca conseguir un despliegue sencillo, seguro y autoalojado,
+                  priorizando pero no limitado a soluciones de código abierto siempre que sea posible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="space-y-6">
+          <!-- Historia -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-cloud text-blue-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-3">¿Por qué "bitCLD"?</h4>
+                <p class="text-gray-600">
+                  bit es la unidad mínima de información y CLD es la abreviatura de cloud. El nombre refleja la
+                  idea de construir una nube propia con recursos muy limitados. demostrando que es posible implementar 
+                  una infraestructura cloud completa sin requerir equipos de alta gama.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Tecnologías -->
+<section class="py-16 md:py-20 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Tecnologías utilizadas</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://ubuntu.com/">
+          <img src="icon/ubuntuc.svg" alt="Linux Server" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Linux Server</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://www.docker.com/">
+          <img src="icon/docker.svg" alt="Docker" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Docker</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://www.cloudflare.com/es-es/">
+          <img src="images/cloudflare.png" alt="Cloudflare" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Cloudflare</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://tailscale.com/">
+          <img src="images/tailscale.png" alt="Tailscale VPN" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Tailscale VPN</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://nextcloud.com.es/">
+          <img src="images/nextcloud.jpg" alt="Nextcloud" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Nextcloud</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://adguard.com/es/adguard-home/overview.html">
+          <img src="images/adguard.png" alt="AdGuard Home" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">AdGuard Home</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://uptime.kuma.pet/">
+          <img src="images/kuma.png" alt="Uptime Kuma" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Uptime Kuma</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://www.netdata.cloud/">
+          <img src="images/netdata.png" alt="Netdata" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Netdata</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://www.vaultwarden.ca/">
+          <img src="images/vaultwarden.png" alt="Vaultwarden" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Vaultwarden</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://caddyserver.com/">
+          <img src="images/caddy.jpg" alt="Caddy" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Caddy</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://ollama.com/">
+          <img src="images/ollama.png" alt="IA" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">IA (Local y API)</h4>
+        </a>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+        <a href="https://www.zoho.com/">
+          <img src="images/zoho.png" alt="Zoho Mail" class="w-12 h-12 mx-auto mb-3 object-contain">
+          <h4 class="font-semibold">Zoho Mail</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Objetivos  -->
+<section class="py-16 md:py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Objetivos del proyecto</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="space-y-6">
+
+        <!-- Linux Server -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="icon/ubuntuc.svg" alt="Linux Server" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Configuración de servidores</h4>
+              <p class="text-gray-600">Configurar, optimizar y securizar servidores Linux para alojar los distintos servicios desplegados.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Docker -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/docker.png" alt="Docker" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Gestión de contenedores</h4>
+              <p class="text-gray-600">Gestionar contenedores de forma centralizada con Dockge y Docker Compose.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cloudflare -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/cloudflare.png" alt="Cloudflare" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Seguridad con Cloudflare</h4>
+              <ul class="text-gray-600 list-disc ml-5 space-y-1 mt-2">
+                <li>Gestión de DNS</li>
+                <li>Cloudflared Tunnel para exponer servicios sin abrir puertos</li>
+                <li>Gestión de dominio y subdominios</li>
+                <li>Protección de aplicaciones y páginas web</li>
+                <li>Cloudflare Access para controlar acceso a servicios internos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tailscale VPN -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/tailscale.png" alt="Tailscale VPN" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Acceso seguro a red privada</h4>
+              <p class="text-gray-600">Establecer un acceso seguro a la red privada con Tailscale VPN.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Nextcloud -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/nextcloud.jpg" alt="Nextcloud" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Almacenamiento en la nube</h4>
+              <p class="text-gray-600">Desplegar un sistema de almacenamiento seguro y privado en la nube mediante Nextcloud.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- AdGuard Home -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/adguard.png" alt="AdGuard Home" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Filtrado DNS</h4>
+              <p class="text-gray-600">Configurar AdGuard Home como solución de filtrado DNS para mejorar privacidad y seguridad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="space-y-6">
+        <!-- Uptime Kuma -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/kuma.png" alt="Uptime Kuma" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Monitorización de disponibilidad</h4>
+              <p class="text-gray-600">Implementar Uptime Kuma para control de disponibilidad y alertas de servicios.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Netdata -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/netdata.png" alt="Netdata" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Monitorización de rendimiento</h4>
+              <p class="text-gray-600">Implementar Netdata para monitorización en tiempo real del rendimiento del sistema.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Vaultwarden -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/vaultwarden.png" alt="Vaultwarden" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Gestor de contraseñas</h4>
+              <p class="text-gray-600">Integrar Vaultwarden como gestor de contraseñas seguro y accesible.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Caddy -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/caddy.jpg" alt="Caddy" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Proxy inverso</h4>
+              <p class="text-gray-600">Configurar Caddy como proxy inverso con certificados SSL automáticos.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- IA (Local y API) -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/ollama.png" alt="IA" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Inteligencia Artificial</h4>
+              <p class="text-gray-600">Explorar e implementar inteligencia artificial tanto mediante APIs externas como en entornos locales.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Zoho Mail -->
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="flex items-start">
+            <div class="mr-4">
+              <img src="images/zoho.png" alt="Zoho Mail" class="w-8 h-8 object-contain">
+            </div>
+            <div>
+              <h4 class="font-semibold text-lg mb-1">Correo electrónico profesional</h4>
+              <p class="text-gray-600">Crear un sistema de correo electrónico profesional con dominio propio usando Zoho Mail.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="py-10">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+        <div class="inline-flex items-center gap-3 bg-white dark:bg-gray-900 rounded-2xl p-4 shadow border border-gray-100 dark:border-gray-800">
+            <span class="text-sm">Para ver con detalle la implementación</span>
+            <a href="https://docs.bitcld.com" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-blue-600 text-white hover:bg-blue-700">Ir a la documentación</a>
+        </div>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-lg">© 2025 Proyecto Final de ASIR | Desarrollado por Ittai Rivero (@ittaidev)</p>
+      <div class="mt-4 flex justify-center space-x-4">
+
+        <!-- <a href="https://ittai.dev" class="text-gray-300 hover:text-white transition">
+        <i class="fas fa-globe text-xl"></i>
+        </a> -->
+        <a href="https://github.com/ittaidev" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="https://x.com/ittaidev" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-x text-xl"></i>
+        </a>
+        <a href="https://www.youtube.com/@ittaidev" class="text-gray-300 hover:text-white transition">
+            <i class="fab fa-youtube text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Script para abrir/cerrar el menú desplegable
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuButton = document.getElementById('menu-button');
+      const dropdownMenu = document.getElementById('dropdown-menu');
+      
+      menuButton.addEventListener('click', function(event) {
+        event.stopPropagation();
+        dropdownMenu.classList.toggle('hidden');
+      });
+      
+      // Cerrar el menú al hacer clic en cualquier parte del documento
+      document.addEventListener('click', function() {
+        dropdownMenu.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+</html>
